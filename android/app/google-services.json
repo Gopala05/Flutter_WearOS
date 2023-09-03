@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "702826701623",
+    "project_id": "tvast-9dd57",
+    "storage_bucket": "tvast-9dd57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702826701623:android:98d733a0e33676487eb0b2",
+        "android_client_info": {
+          "package_name": "com.example.tvast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702826701623-no3fs6f49rbfoc902j054vgu99ltfj5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARgLEyel4qkwVR9SCxu4z32fJHxaiTQZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702826701623-no3fs6f49rbfoc902j054vgu99ltfj5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
