@@ -19,8 +19,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Color primary = const Color(0xFF1E88E5);
 
-  get key => null;
-
   @override
   void initState() {
     super.initState();
@@ -62,7 +60,7 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             Container(
               alignment: Alignment.center,
-              margin: EdgeInsets.only(top: 5),
+              margin: EdgeInsets.only(top: screenHeight/20),
               child: Text(
                 "Welcome",
                 style: TextStyle(
@@ -73,7 +71,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
             Container(
-                margin: const EdgeInsets.only(top: 10),
+                margin: EdgeInsets.only(top: screenHeight/10),
                 alignment: Alignment.centerLeft,
                 child: RichText(
                   text: TextSpan(
@@ -98,10 +96,10 @@ class _HomeScreenState extends State<HomeScreen> {
               stream: Stream.periodic(const Duration(seconds: 1)),
               builder: (context, snapshot) {
                 return Container(
-                  margin: const EdgeInsets.only(top: 10),
+                  margin: EdgeInsets.only(top: screenHeight / 30),
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    DateFormat('hh:mm:ss a').format(DateTime.now()),
+                    DateFormat('hh:mm:ss ').format(DateTime.now()),
                     style: TextStyle(
                       fontSize: screenWidth/20,
                       fontFamily: "NexaRegular",
@@ -112,8 +110,7 @@ class _HomeScreenState extends State<HomeScreen> {
               }
             ),
             checkOut == "--/--" ? Container(
-              margin: const EdgeInsets.only(top: 10),
-              key: key,
+              margin: EdgeInsets.only(top: screenHeight / 10),
               child: ElevatedButton(
                 onPressed: () async {
                   QuerySnapshot snap = await FirebaseFirestore.instance
