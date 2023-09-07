@@ -17,8 +17,6 @@ class _HomeScreenState extends State<HomeScreen> {
   String checkIn = "--/--";
   String checkOut = "--/--";
 
-  Color primary = const Color(0xFF1E88E5);
-
   @override
   void initState() {
     super.initState();
