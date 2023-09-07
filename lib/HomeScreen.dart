@@ -1,6 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'package:slide_to_act/slide_to_act.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -61,7 +62,7 @@ class _HomeScreenState extends State<HomeScreen> {
               alignment: Alignment.center,
               margin: EdgeInsets.only(top: screenHeight/20),
               child: Text(
-                "Welcome",
+                "WELCOME",
                 style: TextStyle(
                   color: Colors.black54,
                   fontFamily: "NexaRegular",
@@ -70,7 +71,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
             Container(
-                margin: EdgeInsets.only(top: screenHeight/10),
+                margin: EdgeInsets.only(top: screenHeight / 20),
                 alignment: Alignment.centerLeft,
                 child: RichText(
                   text: TextSpan(
@@ -101,7 +102,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     DateFormat('hh:mm:ss').format(DateTime.now()),
                     style: TextStyle(
                       fontSize: screenWidth/20,
-                      fontFamily: "NexaBold",
+                      fontFamily: "NexaRegular",
                       color: Colors.black54,
                     ),
                   ),
