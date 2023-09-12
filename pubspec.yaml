@@ -80,7 +80,7 @@ flutter:
   fonts:
      - family: NexaBold
        fonts:
-         - asset: Fonts/fonts/Nexa Bold.otf
+         - asset: Fonts/fonts/NexaBold.otf
      - family: NexaRegular
        fonts:
          - asset: Fonts/fonts/NexaRegular.ttf
