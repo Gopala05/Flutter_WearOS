@@ -84,6 +84,3 @@ flutter:
      - family: NexaRegular
        fonts:
          - asset: Fonts/fonts/NexaRegular.ttf
-  #
-  # For details regarding fonts from package dependencies,
-  # see https://flutter.dev/custom-fonts/#from-packages
