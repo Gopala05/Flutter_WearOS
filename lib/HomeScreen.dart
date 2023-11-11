@@ -149,7 +149,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
                 },
                 child : Text(checkIn== "--/--" ? "Check-In" : "Check-Out"),
-
               ),
             ) : Container(
               margin: const EdgeInsets.only(top: 20),
