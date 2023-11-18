@@ -38,6 +38,7 @@ class _HomeScreenState extends State<HomeScreen> {
         checkIn = snap2['Check-IN'];
         checkOut = snap2['Check-OUT'];
       });
+      
     }catch(e) {
       setState(() {
         checkIn = "--/--";
@@ -145,8 +146,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         .set({
                       'Check-IN' : DateFormat('hh:mm').format(DateTime.now())
                     });
-                  }
-
+                  },
                 },
                 child : Text(checkIn== "--/--" ? "Check-In" : "Check-Out"),
               ),
