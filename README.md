@@ -1,3 +1,3 @@
 # Flutter_WearOS
 
-A Flutter project application for WearOS.
+A Check-In, Check-Out Application built using Flutter 
