@@ -1,3 +1,3 @@
 # Flutter_WearOS
 
-A Flutter project for building WearOS.
+A Flutter project application for WearOS.
