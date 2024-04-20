@@ -1,3 +1,3 @@
-# Flutter_WearOS
+# Flutter WearOS
 
-A Check-In and Check-Out Application built using Flutter 
+A Check-In and Check-Out Application built using flutter 
